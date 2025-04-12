@@ -7,7 +7,7 @@ from google.cloud import translate_v2 as translate
 import pygame
 
 # Set the path to your service account JSON key file
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = r"C:\\Users\\Antu Sanbui\\Desktop\\project\\GoogleApi\\SA_S2T.json"
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = r"Your GCP Credential Path"
 
 # Audio configuration
 FORMAT = pyaudio.paInt16
